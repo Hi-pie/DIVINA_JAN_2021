@@ -11,7 +11,7 @@ radius = 5  #стартовый радиус окружности
 color = (255, radius, 0)
 game = True  #Продолжается игра или нет
 while game:
-
+    color = (255, 0, radius)
     events = pygame.event.get() #Запрашиваем СОБЫТИЯ, произошедшие в игре
 
     for e in events:   #берём события по одному
