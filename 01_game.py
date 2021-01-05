@@ -27,7 +27,9 @@ while game:
             if e.button == 5: #Кручу вниз
                 radius-=1
 
-            if e.button == pygame.BUTTON_RIGHT:
+
+         
+            if e.button == 2: #если нажато колёсико мыши
                 print(1234567890)
                 ##!!!!!  ---- ИЗМЕНИТЬ ЦВЕТ НА РАНДОМНЫЙ
 
@@ -38,6 +40,9 @@ while game:
         mousepose = pygame.mouse.get_pos()  #Запрашиваю позицию мыши
 
         pygame.draw.circle(gamedisplay, color, mousepose, radius)
+
+    if pygame.key.get_pressed()[pygame.K_SPACE]: #Проверяем, что кнопка ПРОБЕЛ нажата
+        print("SPACE")
 
 
 
