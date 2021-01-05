@@ -29,6 +29,7 @@ while game:
 
             if e.button == pygame.BUTTON_RIGHT:
                 print(1234567890)
+                ##!!!!!  ---- ИЗМЕНИТЬ ЦВЕТ НА РАНДОМНЫЙ
 
 
 
