@@ -4,8 +4,8 @@ from random import randint, choice, shuffle
 
 bot = telebot.TeleBot(TOKEN)  # Создаём подключение к боту
 
-
 isGame = False #Идёт игра словомеска или нет
+
 word = None
 
 @bot.message_handler(commands=['start'])
